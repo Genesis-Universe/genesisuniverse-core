@@ -1,0 +1,28 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+
+#VS Code
+.vscode/*
+!.vscode/settings.json.default
+!.vscode/launch.json.default
+!.vscode/extensions.json.default
+
+#Hardhat files
+abi
+cache
+artifacts
+
+#WebStorm
+.idea
+*.iml
+
+.openzeppelin/unknown-31337.json
+
+deployments/hardhat
+deployments/localhost
+
+#macOS
+.DS_Store
